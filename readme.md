@@ -2,7 +2,7 @@
 # Overview
 
 Basic CLI application to keep track of tasks\
-Tasks are accessible in the `tasks.json` file in the same directory as project\
+Tasks are accessible in the `tasks.json` file in the same directory as main.py\
 Each task has the following properties:
 
 - ID
@@ -15,18 +15,16 @@ Each task has the following properties:
 
 ### Windows
 
-1. Install Python https://www.python.org
-2. Set the Command Prompt current working directory as the file directory
-3. Enter the file name with `.py` suffix
-4. Enter one of the given commands with proper arguments (separate each argument with a space)
+1. Open Terminal at main.py directory
+2. Type `main.py` followed by one of the avaliable commands
 
 # Commands
 
-- add (task name) **[string]**
-- delete (task ID to delete) **[int]**
-- update (task ID to update and new task description) **[int]** **[string]**
-- mark_done (task ID) **[int]**
-- mark_in_progress (task ID) **[int]**
+- add (enter task name)
+- delete (enter task ID to delete)
+- update (enter task ID to update and new task description)
+- mark_done (enter task ID)
+- mark_in_progress (enter task ID)
 - list_all_tasks (no arguments)
 - list_to_do (no arguments)
 - list_done (no arguments)
@@ -34,11 +32,11 @@ Each task has the following properties:
 
 ### Example prompt
 
-`main.py add Task name`\
+`main.py add task_name`\
 `main.py mark_done 2`\
 `main.py list_all_tasks`
 
 # Credits
 
 Idea: https://github.com/kamranahmedse \
-Code : https://github.com/piotr-czarnecki-dev
+Code : https://github.com/piotr-czarnecki07
