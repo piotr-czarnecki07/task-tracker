@@ -13,10 +13,8 @@ Each task has the following properties:
 
 # How to Use
 
-### Windows
-
-1. Open Terminal at main.py directory
-2. Type `main.py` followed by one of the avaliable commands
+1. Open Terminal at main.py directory, for example by evoking `cd C:\\path\to\task-tracker`
+2. Type `main.py` followed by one of the avaliable commands and optionally corresponding arguments
 
 # Commands
 
