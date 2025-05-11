@@ -13,10 +13,9 @@ Each task has the following properties:
 
 # How to Use
 
-### Windows
-
-1. Open Terminal at main.py directory
-2. Type `main.py` followed by one of the avaliable commands
+1. Have Python 3.10+ installed
+2. Open Terminal at main.py directory
+3. Type `main.py` followed by one of the avaliable commands
 
 # Commands
 
