@@ -36,6 +36,11 @@ Each task has the following properties:
 `main.py mark_done 2`\
 `main.py list_all_tasks`
 
+# Licence
+
+This project is licensed under the MIT License \
+See [LICENSE](./LICENSE) for more information
+
 # Credits
 
 Idea: https://github.com/kamranahmedse \
