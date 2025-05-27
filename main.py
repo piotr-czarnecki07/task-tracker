@@ -108,7 +108,7 @@ def mark_in_progress(task_id):
     try:
         task_id = int(task_id)
     except:
-        print("Wrong data")
+        print("Incorrect data")
         return
 
     try:
@@ -150,7 +150,7 @@ def mark_done(task_id):
 
                 with open(f"{path}\\tasks.json", "w") as file:
                     file.write(json.dumps(python_object))
-                print("Status chaned")
+                print("Status changed")
                 return
 
         print("Task with given ID could not be found")
