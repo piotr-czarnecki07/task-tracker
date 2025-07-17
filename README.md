@@ -1,22 +1,27 @@
-# Overview
+# task-tracker
 
-Basic CLI application to keep track of tasks.  
-Tasks are accessible in the `tasks.json` file in the same directory as `main.py`.  
+CLI application to keep track of tasks.  
+Tasks are accessible in `tasks.json` file in the root directory.  
 Each task has the following properties:
-
 - ID
-- Description / Task name
-- Status
+- Description
+- Completion status
 - Creation date
 - Update date
 
-# How to Use
+## Table of Contents
+- [How to Use](#how-to-use)
+- [Commands](#commands)
+- [Licence](#license)
+- [Credits](#credits)
+
+## How to Use
 
 1. Ensure Python 3.10+ is installed.
 2. Open the Terminal in the directory containing `main.py`.
 3. Type `main.py` followed by one of the available commands.
 
-# Commands
+## Commands
 
 - `add` (enter task name)
 - `delete` (enter task ID to delete)
@@ -36,12 +41,11 @@ main.py mark_done 2
 main.py list_all_tasks
 ```
 
-# Licence
+## License
 
-This project is licensed under the MIT License  
+This project is licensed under the MIT License
 See [LICENSE](./LICENSE) for more information
 
-# Credits
+## Credits
 
-Idea: https://github.com/kamranahmedse  
-Code : https://github.com/piotr-czarnecki07
+Idea: https://github.com/kamranahmedse
